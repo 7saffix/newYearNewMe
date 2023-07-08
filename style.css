@@ -1,37 +1,85 @@
+/* common style  */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
-header{
+
+/* heder section style  */
+header {
     background-image: url('images/banner/banner2.png');
-    background-size:contain;
-    background-repeat: no-repeat; 
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.banner-info{
+
+.banner-info {
     padding: 180px 180px 270px 650px;
     display: flex;
     flex-direction: column;
     text-align: right;
-    color:#151414;
+    color: #151414;
 }
-.banner-info h1{
-    font-size: 45px; 
+
+.banner-info h1 {
+    font-size: 45px;
     font-weight: 700;
 }
-.banner-info p{
+
+.banner-info p {
     padding: 20px 0;
     font-size: 16px;
     line-height: 26px;
 }
-.banner-info button{
+
+.banner-info button {
     width: 120px;
     padding: 10px;
-    margin: 10px 345px; 
+    margin: 10px 345px;
     font-size: 15px;
     border-radius: 5px;
     background-color: #F15B22;
     border: none;
     color: white;
+}
+
+/* main section style  */
+
+.failures-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.failures-section img{
+    width:450px;
+    height: 550px;
+    margin-right: 20px;
+}
+.failure-info{
+    margin:100px 150px 0 100px;
+}
+.failure-info h1{
+    color:  #151414;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+.failure-info p{
+    color:  #444343;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.failure-info i{
+    line-height: 30px;
+    color: green;
+}
+.failure-info label{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
 }
