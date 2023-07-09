@@ -83,3 +83,36 @@ header {
     font-size: 16px;
     line-height: 26px;
 }
+
+/* plan section  */
+.plan-section h2{
+    text-align: center;
+    padding: 35px 25px;
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.plans{
+    display: flex;
+    justify-content: center;
+}
+.plan{
+    width: 250px;
+    text-align: center;
+    /* padding: 15px; */
+}
+.plan img{
+    width: 70px;
+}
+.plan h3{
+    color:  #151414;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.plan p{
+    color: #737272;
+    font-size: 18px;
+    font-weight: 500;
+}
